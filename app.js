@@ -9,8 +9,8 @@ var apiRouter = require('./routes/book');
 var app = express();
 
 var mongoose = require('mongoose');
-mongoose.connect('mongodb://localhost/mean-angular6', { promiseLibrary: require('bluebird') })
-  .then(() =>  console.log('connection to mongodb://localhost/mean-angular6 successful'))
+mongoose.connect('mongodb://vm-dit-lvov:8200/mean-angular6', { promiseLibrary: require('bluebird') })
+  .then(() =>  console.log('connection to mongodb://vm-dit-lvov:8200/mean-angular6 successful'))
   .catch((err) => console.error(err));
 
 app.use(logger('dev'));
