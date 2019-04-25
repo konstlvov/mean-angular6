@@ -6,7 +6,9 @@ import { catchError, tap, map } from 'rxjs/operators';
 const httpOptions = {
   headers: new HttpHeaders({'Content-Type': 'application/json'})
 };
-const apiUrl = "/api";
+
+//const apiUrl = "/api";
+const apiUrl = "http://localhost:8080/booklist";
 
 @Injectable({
   providedIn: 'root'
