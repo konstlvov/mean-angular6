@@ -8,7 +8,8 @@ const httpOptions = {
 };
 
 //const apiUrl = "/api";
-const apiUrl = "http://localhost:8080/booklist";
+//const apiUrl = "http://localhost:8080/booklist";
+const apiUrl = "http://localhost:8080/books"; // pointed to Spring backed API
 
 @Injectable({
   providedIn: 'root'
