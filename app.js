@@ -18,7 +18,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(express.static(path.join(__dirname, 'dist/mean-angular6')));
 app.use('/', express.static(path.join(__dirname, 'dist/mean-angular6')));
-//app.use('/api', apiRouter); // this is for express-backed api, but we are going to use Spring REST
+// app.use('/api', apiRouter); // this is for express-backed api, but we are going to use Spring REST
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

@@ -7,8 +7,7 @@ const httpOptions = {
   headers: new HttpHeaders({'Content-Type': 'application/json'})
 };
 
-//const apiUrl = "/api";
-//const apiUrl = "http://localhost:8080/booklist";
+//const apiUrl = "/api"; // pointer to Express backed API
 const apiUrl = "http://localhost:8080/books"; // pointed to Spring backed API
 
 @Injectable({
